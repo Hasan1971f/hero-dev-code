@@ -31,7 +31,9 @@ body {
 }
 
 #hero {
-    padding-top: 100px;
+    margin-bottom: 150px;
+    padding-top: 20px;
+    
     background: url("../images/Hero-bg.png");
     background-size: 500px;
 
