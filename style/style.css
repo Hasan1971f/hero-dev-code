@@ -93,6 +93,31 @@ body {
     color: black;
 }
 
+.project-card {
+    padding: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #872BFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.project-img img{
+    width: 400px;
+    border-radius: 20px;
+}
+.project-content h3{
+    font-size: 30px;
+}
+.project-content p{
+    color: #0E0E0E70;
+    font-size: 16px;
+}
+.project-content *{
+    margin-bottom: 20px;
+}
+
 #hero {
     margin-bottom: 150px;
     padding-top: 20px;
@@ -141,5 +166,9 @@ body {
 }
 
 #skill {
+    margin-bottom: 150px;
+}
+
+#projects {
     margin-bottom: 150px;
 }
