@@ -206,3 +206,101 @@ body {
     text-align: center;
     padding: 60px 0;
 }
+
+@media screen and (max-width: 1024px) {
+
+    #hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #hero-image img {
+        width: 400px;
+    }
+
+    .card-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-img img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        width: 95%;
+    }
+
+    #hero {
+        margin-bottom: 80px;
+    }
+
+    #hero-content h1 {
+        font-size: 32px;
+    }
+
+    #hero-image img {
+        width: 100%;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .heading h2 {
+        font-size: 28px;
+    }
+
+    .heading h4 {
+        font-size: 18px;
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .project-card {
+        flex-direction: column;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .project-img img {
+        width: 100%;
+    }
+
+    .project-content h3 {
+        font-size: 24px;
+    }
+
+    .brands {
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .company-card {
+        gap: 20px;
+    }
+}
