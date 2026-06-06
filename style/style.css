@@ -22,6 +22,13 @@ body {
     box-shadow: 0 11px 31px 0 #8C8C8C;
     cursor: pointer;
     margin-right: 20px;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #872BFF;
 }
 
 .btn-white {
@@ -103,19 +110,30 @@ body {
     align-items: center;
     margin-bottom: 60px;
 }
-.project-img img{
+
+.project-img img {
     width: 400px;
     border-radius: 20px;
 }
-.project-content h3{
+
+.project-content h3 {
     font-size: 30px;
 }
-.project-content p{
+
+.project-content p {
     color: #0E0E0E70;
     font-size: 16px;
 }
-.project-content *{
+
+.project-content * {
     margin-bottom: 20px;
+}
+
+.brands {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    border-radius: 16px;
 }
 
 #hero {
@@ -171,4 +189,20 @@ body {
 
 #projects {
     margin-bottom: 150px;
+}
+
+#experience {
+    margin-bottom: 150px;
+}
+
+.company-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-container {
+    text-align: center;
+    padding: 60px 0;
 }
